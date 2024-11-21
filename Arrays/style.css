@@ -1,0 +1,55 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    min-height: 100vh;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 600px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+}
+main .input-area{
+    font-size: 16pt;
+    padding-top: 10px;
+}
+main .input-area input{
+    width: 100%;
+    outline: none;
+}
+main .input-area select{
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100px;
+}
+main .input-area .btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+main .input-area button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: wheat;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+}
+main .input-area button:hover{
+    border-bottom: 5px burlywood solid;
+}
